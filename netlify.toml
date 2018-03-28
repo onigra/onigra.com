@@ -1,0 +1,12 @@
+[Settings]
+  ID = "onigra-com"
+
+[context.production]
+  command = "mv src public"
+
+[context.deploy-preview]
+  command = "echo 'deploy-preview'"
+
+[context.branch-deploy]
+  command = "echo 'branch-deploy'"
+
